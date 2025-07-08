@@ -99,7 +99,21 @@
   font-size: 20px;
   font-weight: bold;
 }
+.sec-btn{
+  padding: 18px 35px;
+  background-color: white;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
 .pri-btn:hover{
+  border: 1.5px solid #474747;
+  color: #474747;
+  cursor: pointer;
+}
+.sec-btn:hover{
   border: 1.5px solid #474747;
   color: #474747;
   cursor: pointer;

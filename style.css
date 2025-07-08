@@ -4,6 +4,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  line-height: 30px;
 }
 .txt-desc{
   font-size: 18px;
@@ -22,12 +23,47 @@
   margin-bottom: 10px;
   margin-top: 0;
 }
-.item-desc{
+.desc{
   font-size: 20px;
   font-weight: bold;
   color: #474747;
   margin: 0;
 }
+.skill-desc{
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.resume-title{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.resume-subtitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.resume-under-sub{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+  margin-right: 47px;
+}
+
 
 .pri-color{
   color: #181818;
@@ -64,12 +100,14 @@
   background-image: url(images/developer.png), url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+  height: 770px;
 }
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 200px;
+  padding-top: 30px;
 }
 nav h2{
   font-weight: 800;
@@ -91,39 +129,35 @@ nav li a{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 .banner-content{
   padding-left: 200px;
   width: 800px;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 .banner-content h3{
   font-weight: 600;
   font-size: 45px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-top: 0;
+  margin-top: 0px;
 }
 .banner-content h2{
   font-size: 85px;
   font-weight: 700;
-  margin: 0px ;
+  margin-top: 50px;
+
 }
 .banner-content p{
-  margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 .banner-content button{
   margin-right: 30px;
 }
 .banner-img{
-  margin-bottom: 0;
-  padding-bottom: 0;
+  padding-top: 10px;
 }
 
 main{
@@ -132,6 +166,7 @@ main{
 }
 .about-container{
   padding: 130px 150px;
+  margin-bottom: 130px;
 }
 .about h3{
   background-color: white;
@@ -151,4 +186,39 @@ main{
   justify-content: space-around;
   text-align: center;
   background-color: white;
+}
+.skills{
+  text-align: center;
+}
+.skills p{
+  width: 900px;
+  margin: auto;
+  padding-top: 30px;
+}
+.skills-container{
+  text-align: left;
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.skill{
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill img{
+  padding-bottom: 30px;
+}
+.resume .title{
+  margin-top: 130px;
+  margin-bottom: 110px;
+  text-align: center;
+}
+.resume-container{
+  display: flex;
+  gap: 30px;
+}
+.resume .btnn{
+  margin-top: 50px;
+  margin-bottom: 110px;
+  text-align: center;
 }

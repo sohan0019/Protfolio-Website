@@ -63,7 +63,16 @@
   margin-bottom: 30px;
   margin-right: 47px;
 }
-
+.Foot-box-p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+}
+.input-size{
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
 
 .pri-color{
   color: #181818;
@@ -183,7 +192,7 @@ main{
 }
 .about-section{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   background-color: white;
 }
@@ -221,4 +230,41 @@ main{
   margin-top: 50px;
   margin-bottom: 110px;
   text-align: center;
+}
+.Foot-box{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-clm{
+  width: 50%;
+}
+.footer-clm h2{
+  margin-bottom: 28px;
+}
+.footer-clm .media{
+  margin-top: 30px;
+}
+.footer-clm .media a{
+  margin-right: 20px;
+}
+.Foot-box input[type="text"], .Foot-box input[type="email"]{
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.Foot-box textarea{
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  resize: vertical;
 }
